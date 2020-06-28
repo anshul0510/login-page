@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Segoe UI;}
+form {border: 1px solid lightgray;
+    margin-left:800px;
+  margin-right:60px;
+  background-color:lightgrey;
+ 
+  
+}
+img{float:none
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 14px 0;
+  display: inline-block;
+  border: 1px solid lightgrey;
+  background-color: #FCFBFB;
+  box-sizing: border-box;
+
+}
+
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.heading { margin-left:800px;
+    margin-top:200px;
+      margin-right:60px;
+}
+body{
+    background-image: url("micheile-henderson-SoT4-mZhyhE-unsplash.jpg");
+    background-size: 100% 135%;
+    background-repeat: no-repeat; 
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}
+</style>
+</head>
+<body>
+<p class="heading"><u><b>Already a User?<a href="#">Sign in</a></b>
+
+<form action="/action_page.php" method="post">
+ 
+  <div class="container">
+    <label for="uname">Username/Email</label>
+    <input type="text"name="uname" required>
+
+    <label for="psw">Password</label>
+    <input type="password" name="psw" required>
+       
+
+  </div>
+  <span class="psw"><u><b>New User? <a href="file:///C:/Users/as/Desktop/html%20project/redirecting.htm">Signup ?</a></span>
+
+ 
+</form>
+
+</body>
+</html>
